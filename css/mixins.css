@@ -1,0 +1,15 @@
+section.principal {
+  border-radius: 10px; }
+
+article {
+  border-radius: 4px;
+  box-shadow: 1px 1px 4px black; }
+
+ol li {
+  margin: 4px 0px;
+  border-radius: 4px;
+  background: -webkit-linear-gradient(top, #eeeeee, #aaaaaa); }
+  ol li:hover {
+    color: #900;
+    cursor: pointer;
+    background: -webkit-linear-gradient(top, #cccc00, #eeeeee); }

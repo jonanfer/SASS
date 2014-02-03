@@ -1,0 +1,20 @@
+ol {
+  margin: 0;
+  padding: 0; }
+  ol li {
+    word-spacing: 4px;
+    list-style: none; }
+
+section.principal article {
+  background-color: #ddd;
+  padding: 10px;
+  margin: 10px 0px; }
+  section.principal article h1 {
+    border-bottom: 2px dotted #666;
+    font-size: 2.5em;
+    padding-bottom: 10px;
+    color: red; }
+  section.principal article p {
+    word-spacing: 8px; }
+  section.principal article ol li {
+    padding: 10px 20px; }

@@ -1,0 +1,29 @@
+/* Variables */
+
+$color-primario: #333;
+$color-secundario: #999;
+
+$color-fondo-primario: #666;
+$color-fondo-secundario: #ccc;
+
+$letra-primario: Tahoma;
+$letra-secundario: Serif;
+
+$centrar-cajas: 0 auto;
+
+$relleno-cajas: 20px;
+
+body
+{
+	background-color: $color-fondo-primario;
+	color: $color-primario;
+	font-family: $letra-primario;
+}
+
+section.principal
+{
+	background-color: $color-fondo-secundario;
+	margin: $centrar-cajas;
+	padding: $relleno-cajas;
+	width: 800px;
+}

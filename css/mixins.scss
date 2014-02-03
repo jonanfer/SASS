@@ -1,0 +1,41 @@
+// Mixins
+
+@mixin borde-radio($radio)
+{
+   border-radius: $radio;
+
+}
+
+@mixin caja-sombra($v1, $v2, $v3, $vc)
+{
+	box-shadow: $v1 $v2 $v3 $vc;
+}
+
+@mixin degradado($orientacion: top, $color1: #eee, $color2: #aaa)
+{
+	background: -webkit-linear-gradient($orientacion, $color1, $color2);
+}
+
+section.principal
+{
+	@include borde-radio(10px);
+}
+
+article
+{
+	@include borde-radio(4px);
+	@include caja-sombra(1px, 1px, 4px, #000);
+}
+
+ol li
+{
+	margin: 4px 0px;
+	@include borde-radio(4px);
+	@include degradado();
+	&:hover
+	{
+		color: #900;
+		cursor: pointer;
+		@include degradado(top, #cc0, #eee);
+	}
+}

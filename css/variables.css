@@ -1,0 +1,11 @@
+/* Variables */
+body {
+  background-color: #666666;
+  color: #333333;
+  font-family: Tahoma; }
+
+section.principal {
+  background-color: #cccccc;
+  margin: 0 auto;
+  padding: 20px;
+  width: 800px; }
